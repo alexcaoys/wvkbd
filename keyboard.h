@@ -37,6 +37,7 @@ enum key_modifier_type {
 	CapsLock = 2,
 	Ctrl = 4,
 	Alt = 8,
+	NumLock = 16,
 	Super = 64,
 	AltGr = 128,
 };

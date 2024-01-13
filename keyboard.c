@@ -351,9 +351,10 @@ kbd_motion_key(struct kbd *kb, uint32_t time, uint32_t x, uint32_t y)
             kb->last_swipe = intersect_key;
             kbd_draw_key(kb, kb->last_swipe, Swipe);
         }
-    } else {
-        kbd_unpress_key(kb, time);
     }
+    //else {
+    //    kbd_unpress_key(kb, time);
+    //}
 
     drwsurf_flip(kb->surf);
 
