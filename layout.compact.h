@@ -201,7 +201,7 @@ static struct key keys_full[] = {
   {"", "", 0.0, EndRow},
 
   {"ctrl", "ctrl", 1.25, Mod, Ctrl, .scheme = 1},
-  {"", "", 1.25, NextLayer, .scheme = 1},
+  {"󰥻", "󰥻", 1.25, NextLayer, .scheme = 1},
   {"alt", "alt", 1.25, Mod, Alt, .scheme = 1},
   {"", "", 6.25, Code, KEY_SPACE},
   {"alt/fn", "alt/fn", 1.0, Mod, AltGr, .scheme = 1},
@@ -279,7 +279,7 @@ static struct key keys_compact[] = {
   {"", "", 0.0, EndRow},
 
   {"ctrl", "ctrl", 1.25, Mod, Ctrl, .scheme = 1},
-  {"", "", 1.25, NextLayer, .scheme = 1},
+  {"󰥻", "󰥻", 1.25, NextLayer, .scheme = 1},
   {"alt", "alt", 1.25, Mod, Alt, .scheme = 1},
   {"", "", 6.25, Code, KEY_SPACE},
   {"alt/fn", "alt/fn", 1.0, Mod, AltGr, .scheme = 1},
@@ -294,10 +294,10 @@ static struct key keys_compact[] = {
 
 static struct key keys_function[] = {
   {"esc", "esc", 1.0, Code, KEY_ESC, .scheme = 1},
-  {"", "", 1.0, Code, KEY_PREVIOUSSONG, .scheme = 1},
-  {"", "", 1.0, Code, KEY_PLAYPAUSE, .scheme = 1},
-  {"", "", 1.0, Code, KEY_NEXTSONG, .scheme = 1},
-  {"", "", 1.0, Code, KEY_WWW},
+  {"󰼨", "󰼨", 1.0, Code, KEY_PREVIOUSSONG, .scheme = 1},
+  {"󰐎", "󰐎", 1.0, Code, KEY_PLAYPAUSE, .scheme = 1},
+  {"󰼧", "󰼧", 1.0, Code, KEY_NEXTSONG, .scheme = 1},
+  {"", "", 1.0, Code, KEY_WWW},
   {"close", "close", 1.0, Code, KEY_CLOSE, .scheme = 1},
   {"7\r\rhome", "7", 1.0, Code, KEY_KP7},
   {"8\r\r↑", "8", 1.0, Code, KEY_KP8},
@@ -305,11 +305,11 @@ static struct key keys_function[] = {
   {"-", "-", 1.0, Code, KEY_KPMINUS, .scheme = 1},
   {"", "", 0.0, EndRow},
   
-  {"", "", 1.0, Code, KEY_SUSPEND, .scheme = 1},
-  {"", "", 1.0, Code, KEY_MUTE, .scheme = 1},
-  {"", "", 1.0, Code, KEY_VOLUMEDOWN, .scheme = 1},
-  {"", "", 1.0, Code, KEY_VOLUMEUP, .scheme = 1},
-  {"", "", 1.0, Code, KEY_COMPUTER},
+  {"󰤄", "󰤄", 1.0, Code, KEY_SUSPEND, .scheme = 1},
+  {"󰝟", "󰝟", 1.0, Code, KEY_MUTE, .scheme = 1},
+  {"󰝞", "󰝞", 1.0, Code, KEY_VOLUMEDOWN, .scheme = 1},
+  {"󰝝", "󰝝", 1.0, Code, KEY_VOLUMEUP, .scheme = 1},
+  {"󰉖", "󰉖", 1.0, Code, KEY_COMPUTER},
   {"*", "*", 1.0, Code, KEY_KPASTERISK, .scheme = 1},
   {"4\r\r←", "4", 1.0, Code, KEY_KP4},
   {"5", "5", 1.0, Code, KEY_KP5},
@@ -318,8 +318,8 @@ static struct key keys_function[] = {
   {"", "", 0.0, EndRow},
 
   {"rotate", "rotate", 1.0, Code, KEY_ROTATE_DISPLAY, .scheme = 1},
-  {"", "", 1.0, Code, KEY_BRIGHTNESSDOWN, .scheme = 1},
-  {"", "", 1.0, Code, KEY_BRIGHTNESSUP, .scheme = 1},
+  {"󰃞", "󰃞", 1.0, Code, KEY_BRIGHTNESSDOWN, .scheme = 1},
+  {"󰃠", "󰃠", 1.0, Code, KEY_BRIGHTNESSUP, .scheme = 1},
 
   {"·", "·", 1.0, Copy, 0x2027},
   {"…", "…", 1.0, Copy, 0x2026},
@@ -332,7 +332,7 @@ static struct key keys_function[] = {
   {"", "", 0.0, EndRow},
 
   {"sup", "sup", 1.0, Mod, Super, .scheme = 1},
-  {"", "", 1.0, NextLayer, .scheme = 1},
+  {"󰥻", "󰥻", 1.0, NextLayer, .scheme = 1},
 
   {"€", "€", 1.0, Copy, 0x20ac},
   {"£", "£", 1.0, Copy, 0x00a3},
@@ -515,7 +515,7 @@ static struct key keys_emoji[] = {
   {"😈", "💩", 1.0, Copy, 0x1f608, 0, 0x1f4a9},
   {"back", "back", 1.0, Code, KEY_BACKSPACE, .scheme = 1},
   {"", "", 0.0, EndRow},
-  {"", "", 1.0, BackLayer, .scheme = 1},
+  {"󰥻", "󰥻", 1.0, BackLayer, .scheme = 1},
   {"👆", "👌", 1.0, Copy, 0x1f446, 0, 0x1f44c},
   {"👇", "✌", 1.0, Copy, 0x1f447, 0, 0x270c},
   {"👈", "👏", 1.0, Copy, 0x1f448, 0, 0x1f44f},
