@@ -294,10 +294,10 @@ static struct key keys_compact[] = {
 
 static struct key keys_function[] = {
   {"esc", "esc", 1.0, Code, KEY_ESC, .scheme = 1},
-  {"󰼨", "󰼨", 1.0, Code, KEY_PREVIOUSSONG, .scheme = 1},
+  {"󰒮", "󰒮", 1.0, Code, KEY_PREVIOUSSONG, .scheme = 1},
   {"󰐎", "󰐎", 1.0, Code, KEY_PLAYPAUSE, .scheme = 1},
-  {"󰼧", "󰼧", 1.0, Code, KEY_NEXTSONG, .scheme = 1},
-  {"", "", 1.0, Code, KEY_WWW},
+  {"󰒭", "󰒭", 1.0, Code, KEY_NEXTSONG, .scheme = 1},
+  {"󰊯", "󰊯", 1.0, Code, KEY_WWW},
   {"close", "close", 1.0, Code, KEY_CLOSE, .scheme = 1},
   {"7\r\rhome", "7", 1.0, Code, KEY_KP7},
   {"8\r\r↑", "8", 1.0, Code, KEY_KP8},
